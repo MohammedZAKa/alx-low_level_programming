@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - Print the last didit of the number and wheter it gretter than 6 or less than.
+ * main - Print the last didit of the number and wheter it gretter than 6
+ *  or less than them.
  *
  * Return: Always 0 (Success)
  */
