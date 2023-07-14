@@ -6,6 +6,7 @@
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	char ch = 'z';
@@ -15,6 +16,7 @@ int main(void)
 		putchar(ch);
 		ch--;
 	}
+	putchar('\n');
 
 	return (0);
 }
