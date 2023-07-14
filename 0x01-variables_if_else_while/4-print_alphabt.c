@@ -12,11 +12,10 @@ int main(void)
 
 	while (al <= 'z')
 	{
-		if ((al == 'q') || (al == 'e'))
+		if ((al != 'q') || (al != 'e'))
 		{
-			continue;
+			putchar(al);
 		}
-		putchar(al);
 		al++;
 	}
 	putchar('\n');
